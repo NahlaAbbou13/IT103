@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS `connexionn` (
+  `ID` int(11) NOT NULL AUTO_INCREMENT,
+  `NOM` varchar(45) DEFAULT NULL,
+  `PRENOM` varchar(45) DEFAULT NULL,
+  `EMAIL` varchar(45) DEFAULT NULL,
+  `PASSWORD` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`ID`)
+)  ;
